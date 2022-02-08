@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_AI -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 12/6/2021 12:23:40 PM -->
+<GameData>
+
+    <!-- AI Lists -->
+    <AiListTypes>
+        <!-- Civics & Techs -->
+        <Row ListType="CustomCivics"/>
+        <Row ListType="CustomTechs" />
+
+        <!-- Gold & Faith -->
+        <Row ListType="CustomGold" />
+        <Row ListType="CustomFaith"/>
+
+        <!-- Diplomacy -->
+        <Row ListType="CustomAlliances"/>
+        <Row ListType="CustomFavor"    />
+
+        <!-- Buildings & GreatWorks-->
+        <Row ListType="CustomBuildings" />
+        <Row ListType="CustomDistricts" />
+        <Row ListType="CustomWonders"   />
+        <Row ListType="CustomGreatWorks"/>
+
+        <!-- Units -->
+        <Row ListType="CustomUnits"        />
+        <Row ListType="CustomUnitPromotion"/>
+
+        <!-- Governors -->
+        <Row ListType="CustomGovernor"/>
+
+        <!-- ETC -->
+        <Row ListType="CustomlSettlements"/>
+        <Row ListType="CustomInflluence"  />
+    </AiListTypes>
+
+    <AiLists>
+        <!-- Civics & Techs -->
+        <Row ListType="CustomCivics">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>Civics</System>
+        </Row>
+        <Row ListType="CustomTechs">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>Technologies</System>
+        </Row>
+
+        <!-- Gold & Faith -->
+        <Row ListType="CustomGold">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>Yields</System>
+        </Row>
+        <Row ListType="CustomFaith">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>Yields</System>
+        </Row>
+
+        <!-- Diplomacy -->
+        <Row ListType="CustomAlliances">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>Alliances</System>
+        </Row>
+        <Row ListType="CustomFavor">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>PseudoYields</System>
+        </Row>
+
+        <!-- Buildings & GreatWorks-->
+        <Row ListType="CustomBuildings">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>Buildings</System>
+        </Row>
+        <Row ListType="CustomDistricts">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>Districts</System>
+        </Row>
+        <Row ListType="CustomWonders">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>Buildings</System>
+        </Row>
+        <Row ListType="CustomGreatWorks">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>PseudoYields</System>
+        </Row>
+
+        <!-- Units -->
+        <Row ListType="CustomUnits">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>Units</System>
+        </Row>
+        <Row ListType="CustomUnitPromotion">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>UnitPromotionClasses</System>
+        </Row>
+
+        <!-- Governors -->
+        <Row ListType="CustomGovernor">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>Buildings</System>
+        </Row>
+
+        <!-- ETC -->
+        <Row ListType="CustomSettlements">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>PlotEvaluations</System>
+        </Row>
+        <Row ListType="CustomInflluence">
+            <LeaderType>TRAIT_LEADER_CUSTOM</LeaderType>
+            <System>PseudoYields</System>
+        </Row>
+    </AiLists>
+
+    <AiFavoredItems>
+        <!-- Civics -->
+        <Row ListType="CustomCivics">
+            <Item>CIVIC_CUSTOM</Item>
+            <Favored>true</Favored>
+        </Row>
+        <Row ListType="CustomCivics">
+            <Item>CIVIC_POLITICAL_PHILOSOPHY</Item>
+            <Favored>true</Favored>
+        </Row>
+        <Row ListType="CustomCivics">
+            <Item>CIVIC_HUMANISM</Item>
+            <Favored>true</Favored>
+        </Row>
+
+        <!-- Techs -->
+        <Row ListType="CustomTechs">
+            <Item>TECH_CELESTIAL_NAVIGATION</Item>
+            <Favored>true</Favored>
+        </Row>
+        <Row ListType="CustomTechs">
+            <Item>TECH_SAILING</Item>
+            <Favored>true</Favored>
+        </Row>
+
+        <!-- Gold & Faith -->
+        <Row ListType="CustomGold">
+            <Item>YIELD_GOLD</Item>
+            <Value>20</Value>
+        </Row>
+        <Row ListType="CustomFaith">
+            <Item>YIELD_FAITH</Item>
+            <Value>20</Value>
+        </Row>
+
+        <!-- Alliances -->
+        <Row ListType="CustomAlliances">
+            <Item>ALLIANCE_MILITARY</Item>
+            <Favored>true</Favored>
+        </Row>
+        <Row ListType="CustomAlliances">
+            <Item>ALLIANCE_SCIENTIFIC</Item>
+            <Favored>true</Favored>
+        </Row>
+
+        <!-- Favors -->
+        <Row ListType="CustomFavor">
+            <Item>PSEUDOYIELD_DIPLOMATIC_FAVOR</Item>
+            <Value>50</Value>
+        </Row>
+
+        <!-- Buildings -->
+        <Row ListType="CustomBuildings">
+            <Item>BUILDING_CUSTOM</Item>
+            <Favored>true</Favored>
+        </Row>
+        <Row ListType="CustomBuildings">
+            <Item>BUILDING_MUSEUM_ART</Item>
+            <Favored>true</Favored>
+        </Row>
+
+        <!-- Districts -->
+        <Row ListType="CustomDistricts">
+            <Item>DISTRICT_THEATER</Item>
+            <Favored>true</Favored>
+        </Row>
+
+        <!-- Wonders -->
+        <Row ListType="CustomWonders">
+            <Item>BUILDING_OXFORD_UNIVERSITY</Item>
+            <Favored>true</Favored>
+        </Row>
+
+        <!-- GreatWorks -->
+        <Row ListType="CustomGreatWorks">
+            <Item>PSEUDOYIELD_GREATWORK_SCULPTURE</Item>
+            <Value>50</Value>
+        </Row>
+        <Row ListType="CustomGreatWorks">
+            <Item>PSEUDOYIELD_GREATWORK_PORTRAIT</Item>
+            <Value>50</Value>
+        </Row>
+        <Row ListType="CustomGreatWorks">
+            <Item>PSEUDOYIELD_GREATWORK_LANDSCAPE</Item>
+            <Value>50</Value>
+        </Row>
+        <Row ListType="CustomGreatWorks">
+            <Item>PSEUDOYIELD_GREATWORK_RELIGIOUS</Item>
+            <Value>50</Value>
+        </Row>
+        <Row ListType="CustomGreatWorks">
+            <Item>PSEUDOYIELD_GREATWORK_ARTIFACT</Item>
+            <Value>50</Value>
+        </Row>
+        <Row ListType="CustomGreatWorks">
+            <Item>PSEUDOYIELD_GREATWORK_WRITING</Item>
+            <Value>50</Value>        
+        </Row>
+        <Row ListType="CustomGreatWorks">
+            <Item>PSEUDOYIELD_GREATWORK_MUSIC</Item>
+            <Value>50</Value>
+        </Row>
+        <Row ListType="CustomGreatWorks">
+            <Item>PSEUDOYIELD_GREATWORK_RELIC</Item>
+            <Value>50</Value>
+        </Row>
+
+        <!-- Units -->
+        <Row ListType="CustomUnits">
+            <Item>UNIT_CUSTOM</Item>
+            <Value>30</Value>
+        </Row>
+
+        <!-- Unit Promotions -->
+        <Row ListType="CustomUnitPromotion">
+            <Item>PROMOTION_CLASS_CUSTOM</Item>
+            <Value>1</Value>
+        </Row>
+
+        <!-- Governors -->
+        <Row ListType="CustomGovernor">
+            <Item>PSEUDOYIELD_GOVERNOR</Item>
+            <Value>70</Value>
+        </Row>
+
+        <!-- ETC -->
+        <Row ListType="CustomSettlements">
+            <Item>Coastal</Item>
+            <Favored>false</Favored>
+            <Value>35</Value>
+        </Row>
+        <Row ListType="CustomInflluence">
+            <Item>PSEUDOYIELD_INFLUENCE</Item>
+            <Value>25</Value>
+        </Row>
+    </AiFavoredItems>
+
+    <!-- Agendas -->
+    <AgendaPreferredLeaders>
+        <Row LeaderType="LEADER_CUSTOM">
+            <AgendaType>AGENDA_CUSTOM</AgendaType>
+            <PercentageChance>100</PercentageChance>
+        </Row>
+        <Row LeaderType="LEADER_CUSTOM">
+            <AgendaType>AGENDA_RANDOM_CUSTOM</AgendaType>
+            <PercentageChance>50</PercentageChance>
+        </Row>
+    </AgendaPreferredLeaders>
+    <HistoricalAgendas>
+        <Row LeaderType="LEADER_CUSTOM">
+            <AgendaType>AGENDA_CUSTOM</AgendaType>
+        </Row>
+    </HistoricalAgendas>
+
+    <!-- Religions -->
+    <FavoredReligions>
+        <Row LeaderType="LEADER_CUSTOM">
+            <ReligionType>RELIGION_CUSTOM</ReligionType>
+        </Row>
+    </FavoredReligions>
+
+</GameData>

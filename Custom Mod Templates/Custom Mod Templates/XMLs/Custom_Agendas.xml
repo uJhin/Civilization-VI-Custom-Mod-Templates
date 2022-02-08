@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_Agendas -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/26/2021 3:36:16 PM -->
+<GameData>
+
+    <Agendas>
+        <Row AgendaType="AGENDA_CUSTOM">
+            <Name>LOC_AGENDA_CUSTOM_NAME</Name>
+            <Description>LOC_AGENDA_CUSTOM_DESCRIPTION</Description>
+        </Row>
+        <Row AgendaType="AGENDA_RANDOM_CUSTOM">
+            <Name>LOC_AGENDA_RANDOM_CUSTOM_NAME</Name>
+            <Description>LOC_AGENDA_RANDOM_CUSTOM_DESCRIPTION</Description>
+        </Row>
+    </Agendas>
+    <RandomAgendas>
+        <Row AgendaType="AGENDA_RANDOM_CUSTOM"/>
+    </RandomAgendas>
+
+    <PlotEvalConditions>
+        <!--
+        <Row ConditionType="Custom Agenda">
+            <Value>1</Value>
+            <PoorValue>-10</PoorValue>
+            <GoodValue>10</GoodValue>
+            <PoorTooltipString>LOC_SETTLEMENT_RECOMMENDATION_POOR_AGENDA_CUSTOM</PoorTooltipString>
+            <GoodTooltipString>LOC_SETTLEMENT_RECOMMENDATION_GOOD_AGENDA_CUSTOM</GoodTooltipString>
+        </Row>
+        -->
+    </PlotEvalConditions>
+
+    <ExclusiveAgendas>
+        <!--
+        <Row>
+            <AgendaOne>AGENDA_CUSTOM</AgendaOne>
+            <AgendaTwo>AGENDA_RANDOM_CUSTOM</AgendaTwo>
+        </Row>
+        -->
+    </ExclusiveAgendas>
+
+</GameData>

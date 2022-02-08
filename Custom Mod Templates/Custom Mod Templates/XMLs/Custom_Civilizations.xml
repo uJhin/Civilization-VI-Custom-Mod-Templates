@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_Civilizations -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/26/2021 3:04:30 PM -->
+<GameData>
+
+    <Types>
+        <Row Type="CIVILIZATION_CUSTOM" Kind="KIND_CIVILIZATION" />
+    </Types>
+
+    <Civilizations>
+        <Row CivilizationType="CIVILIZATION_CUSTOM">
+            <Name>LOC_CIVILIZATION_CUSTOM_NAME</Name>
+            <Description>LOC_CIVILIZATION_CUSTOM_DESCRIPTION</Description>
+            <Adjective>LOC_CIVILIZATION_CUSTOM_ADJECTIVE</Adjective>
+            <StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+            <RandomCityNameDepth>5</RandomCityNameDepth>
+            <Ethnicity>ETHNICITY_ASIAN</Ethnicity>
+        </Row>
+    </Civilizations>
+
+    <CivilizationInfo>
+        <Row CivilizationType="CIVILIZATION_CUSTOM">
+            <Header>LOC_CIVINFO_CUSTOM_HEADER</Header>
+            <Caption>LOC_CIVINFO_CUSTOM_CAPTION</Caption>
+        </Row>
+    </CivilizationInfo>
+
+    <CivilizationLeaders>
+        <Row CivilizationType="CIVILIZATION_CUSTOM">
+            <LeaderType>LEADER_CUSTOM</LeaderType>
+            <CapitalName>LOC_CIVILIZATION_CUSTOM_CAPITAL_NAME</CapitalName>
+        </Row>
+    </CivilizationLeaders>
+
+    <CivilizationCitizenNames>
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CitizenName="LOC_CITIZEN_CUSTOM_MALE_1"   Female="false"/>
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CitizenName="LOC_CITIZEN_CUSTOM_MALE_2"   Female="false"/>
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CitizenName="LOC_CITIZEN_CUSTOM_MALE_3"   Female="false"/>
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CitizenName="LOC_CITIZEN_CUSTOM_MALE_4"   Female="false"/>
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CitizenName="LOC_CITIZEN_CUSTOM_FEMALE_1" Female="true" />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CitizenName="LOC_CITIZEN_CUSTOM_FEMALE_2" Female="true" />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CitizenName="LOC_CITIZEN_CUSTOM_FEMALE_3" Female="true" />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CitizenName="LOC_CITIZEN_CUSTOM_FEMALE_4" Female="true" />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CitizenName="LOC_CITIZEN_CUSTOM_FEMALE_5" Female="true" />
+    </CivilizationCitizenNames>
+
+    <CityNames>
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CityName="LOC_CIVILIZATION_CUSTOM_CAPITAL_NAME" />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CityName="LOC_CIVILIZATION_CUSTOM_CITY_1"       />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CityName="LOC_CIVILIZATION_CUSTOM_CITY_2"       />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CityName="LOC_CIVILIZATION_CUSTOM_CITY_3"       />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CityName="LOC_CIVILIZATION_CUSTOM_CITY_4"       />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CityName="LOC_CIVILIZATION_CUSTOM_CITY_5"       />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CityName="LOC_CIVILIZATION_CUSTOM_CITY_6"       />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CityName="LOC_CIVILIZATION_CUSTOM_CITY_7"       />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CityName="LOC_CIVILIZATION_CUSTOM_CITY_8"       />
+        <Row CivilizationType="CIVILIZATION_CUSTOM" CityName="LOC_CIVILIZATION_CUSTOM_CITY_9"       />
+    </CityNames>
+
+</GameData>

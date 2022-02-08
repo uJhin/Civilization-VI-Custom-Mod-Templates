@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_Colors -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/26/2021 3:36:16 PM -->
+<GameData>
+    <!-- <Color>Red,Green,Blue,Alpha</Color> -->
+    <!-- See Other Jersey Colors: https://civilization.fandom.com/wiki/Jersey_System_(Civ6) -->
+
+    <Colors>
+        <!-- Leaders -->
+        <Row>
+            <Type>COLOR_LEADER_CUSTOM_PRIMARY</Type>
+            <Color>0,0,0,0</Color>
+        </Row>
+        <Row>
+            <Type>COLOR_LEADER_CUSTOM_SECONDARY</Type>
+            <Color>255,255,255,255</Color>
+        </Row>
+
+        <!-- Religions -->
+        <Row>
+            <Type>COLOR_RELIGION_CUSTOM</Type>
+            <Color>0,0,0,0</Color>
+        </Row>
+    </Colors>
+
+    <PlayerColors>
+        <Row>
+            <Type>LEADER_CUSTOM</Type>
+            <Usage>Unique</Usage>
+            <PrimaryColor>COLOR_LEADER_CUSTOM_PRIMARY</PrimaryColor>
+            <SecondaryColor>COLOR_LEADER_CUSTOM_SECONDARY</SecondaryColor>
+        </Row>
+    </PlayerColors>
+
+</GameData>

@@ -1,0 +1,26 @@
+--------------------------------------------------------------
+-- Custom_Update
+-- Author: YuJhin
+-- DateCreated: 11/30/2021 2:36:52 PM
+--------------------------------------------------------------
+-- If you want to update your custom mod, use this.
+-- For examples: 
+--------------------------------------------------------------
+-- Update Statements
+--------------------------------------------------------------
+-- UPDATE Table_Name
+-- SET 
+--     Column1 = 'Value1',
+--     Column2 = 'Value2',
+--     Column3 = 'Value3'
+-- WHERE Column1 = 'Value1'
+-- AND   Column2 = 'Value2';
+-------------------------------------------------------------- 
+-- Replace Statements
+--------------------------------------------------------------
+-- REPLACE INTO Table_name
+--     ( 'Column1' , 'Column2' , 'Column3' )
+-- VALUES
+--     ( 'Value1' ,  'Value2'  ,  'Value3' );
+--------------------------------------------------------------
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_Icons -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/26/2021 3:36:16 PM -->
+<GameData>
+
+    <IconTextureAtlases>
+        <!-- Buildings -->
+        <!-- Column[0] => Building1 , Column[1] => Building2 ... -->
+        <!-- Row   [0] => Normal    , Row   [1] => FOW           -->
+        <Row Name="ICON_ATLAS_BUILDING_CUSTOM" IconSize="32"  IconsPerRow="2" IconsPerColumn="1"  Filename="Icon_Building_Custom_32.dds" />
+        <Row Name="ICON_ATLAS_BUILDING_CUSTOM" IconSize="38"  IconsPerRow="2" IconsPerColumn="1"  Filename="Icon_Building_Custom_36.dds" />
+        <Row Name="ICON_ATLAS_BUILDING_CUSTOM" IconSize="50"  IconsPerRow="2" IconsPerColumn="1"  Filename="Icon_Building_Custom_50.dds" />
+        <Row Name="ICON_ATLAS_BUILDING_CUSTOM" IconSize="80"  IconsPerRow="2" IconsPerColumn="1"  Filename="Icon_Building_Custom_80.dds" />
+        <Row Name="ICON_ATLAS_BUILDING_CUSTOM" IconSize="128" IconsPerRow="2" IconsPerColumn="1"  Filename="Icon_Building_Custom_128.dds"/>
+        <Row Name="ICON_ATLAS_BUILDING_CUSTOM" IconSize="256" IconsPerRow="2" IconsPerColumn="1"  Filename="Icon_Building_Custom_256.dds"/>
+
+    </IconTextureAtlases>
+
+    <IconDefinitions>
+        <!-- Buildings -->
+        <Row Name="ICON_BUILDING_CUSTOM"     Atlas="ICON_ATLAS_BUILDING_CUSTOM" Index="0"/>
+        <Row Name="ICON_BUILDING_CUSTOM_FOW" Atlas="ICON_ATLAS_BUILDING_CUSTOM" Index="1"/>
+        
+        
+    </IconDefinitions>
+
+</GameData>

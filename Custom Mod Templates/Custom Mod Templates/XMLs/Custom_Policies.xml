@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_Policies -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/26/2021 3:04:30 PM -->
+<GameData>
+
+    <Types>
+        <Row Type="POLICY_CUSTOM" Kind="KIND_POLICY" />
+    </Types>
+
+    <Policies>
+        <Row PolicyType="POLICY_CUSTOM">
+            <Name>LOC_POLICY_CUSTOM_NAME</Name>
+            <Description>LOC_POLICY_CUSTOM_DESCRIPTION</Description>
+            <PrereqCivic>CIVIC_DEFENSIVE_TACTICS</PrereqCivic>
+            <GovernmentSlotType>SLOT_MILITARY</GovernmentSlotType>
+        </Row>
+    </Policies>
+
+    <ObsoletePolicies>
+        <Row PolicyType="POLICY_CUSTOM">
+            <ObsoletePolicy>POLICY_PROPAGANDA</ObsoletePolicy>
+        </Row>
+    </ObsoletePolicies>
+
+</GameData>

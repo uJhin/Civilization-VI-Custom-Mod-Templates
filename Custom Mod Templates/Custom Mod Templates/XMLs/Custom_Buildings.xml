@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Custom_Buildings -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/26/2021 3:04:30 PM -->
+<GameData>
+
+    <Types>
+        <Row Type="BUILDING_CUSTOM" Kind="KIND_BUILDING" />
+    </Types>
+
+    <Buildings>
+        <Row BuildingType="BUILDING_CUSTOM">
+            <Name>LOC_BUILDING_CUSTOM_NAME</Name>
+            <Cost>100</Cost>
+            <PurchaseYield>YIELD_GOLD</PurchaseYield>
+            <AdvisorType>ADVISOR_GENERIC</AdvisorType>
+            <TraitType>TRAIT_BUILDING_CUSTOM</TraitType>
+
+            <!--<PrereqDistrict>DISTRICT_CITY_CENTER</PrereqDistrict>-->
+            <!--<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>-->
+            <!--<Maintenance>3</Maintenance>-->
+            <!--<CitizenSlots>3</CitizenSlots>-->
+            <!--<RegionalRange>3</RegionalRange>-->            
+        </Row>
+    </Buildings>
+    <Buildings_XP2>
+        <!--
+        <Row BuildingType="BUILDING_CUSTOM">
+            <RequiredPower></RequiredPower>
+        </Row>
+        -->
+    </Buildings_XP2>
+
+    <BuildingPrereqs>
+        <!--
+        <Row Building="BUILDING_CUSTOM">
+            <PrereqBuilding></PrereqBuilding>
+        </Row>
+        -->
+    </BuildingPrereqs>
+
+    <BuildingReplaces>
+        <!--
+        <Row CivUniqueBuildingType="BUILDING_CUSTOM">
+            <ReplacesBuildingType></ReplacesBuildingType>
+        </Row>
+        -->
+    </BuildingReplaces>
+
+    <Building_YieldChanges>
+        <!--
+        <Row BuildingType="BUILDING_CUSTOM">
+            <YieldType></YieldType>
+            <YieldChange></YieldChange>
+        </Row>
+        -->
+    </Building_YieldChanges>
+
+    <Building_YieldChangesBonusWithPower>
+        <!-- 
+        <Row> BuildingType="BUILDING_CUSTOM">
+            <YieldType></YieldType>
+            <YieldChange></YieldChange>
+        </Row>
+        -->
+    </Building_YieldChangesBonusWithPower>
+
+    <Building_YieldsPerEra>
+        <!--
+        <Row BuildingType="BUILDING_CUSTOM">
+            <YieldType></YieldType>
+            <YieldChange></YieldChange>
+        </Row>
+        -->
+    </Building_YieldsPerEra>
+
+    <Building_YieldDistrictCopies>
+        <!--
+        <Row BuildingType="BUILDING_CUSTOM">
+            <OldYieldType></OldYieldType>
+            <NewYieldType></NewYieldType>
+        </Row>
+        -->
+    </Building_YieldDistrictCopies>
+
+    <Building_CitizenYieldChanges>
+        <!--
+        <Row BuildingType="BUILDING_CUSTOM">
+            <YieldType></YieldType>
+            <YieldChange></YieldChange>
+        </Row>
+        -->
+    </Building_CitizenYieldChanges>
+
+    <Building_GreatPersonPoints>
+        <!--
+        <Row BuildingType="BUILDING_CUSTOM">
+            <GreatPersonClassType></GreatPersonClassType>
+            <PointsPerTurn></PointsPerTurn>
+        </Row>
+        -->
+    </Building_GreatPersonPoints>
+
+    <Building_GreatWorks>
+        <!--
+        <Row BuildingType="BUILDING_CUSTOM">
+            <GreatWorkSlotType></GreatWorkSlotType>
+            <NumSlots></NumSlots>
+        </Row>
+        -->
+    </Building_GreatWorks>
+
+    <Building_TourismBombs_XP2>
+        <!--
+        <Row BuildingType="BUILDING_CUSTOM">
+            <TourismBombValue></TourismBombValue>
+        </Row>
+        -->
+    </Building_TourismBombs_XP2>
+
+</GameData>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_Leaders -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/26/2021 3:04:30 PM -->
+<GameData>
+
+    <Types>
+        <Row Type="LEADER_CUSTOM" Kind="KIND_LEADER" />
+    </Types>
+
+    <Leaders>
+        <Row LeaderType="LEADER_CUSTOM">
+            <Name>LOC_LEADER_CUSTOM_NAME</Name>
+            <InheritFrom>LEADER_DEFAULT</InheritFrom>
+            <Sex>Male</Sex>
+        </Row>
+    </Leaders>
+    <Leaders_XP2>
+        <Row LeaderType="LEADER_CUSTOM">
+            <OceanStart>false</OceanStart>
+        </Row>
+    </Leaders_XP2>
+
+    <DuplicateLeaders>
+        <!--
+        <Row LeaderType="LEADER_CUSTOM">
+            <OtherLeaderType>LEADER_CUSTOM_2</OtherLeaderType>
+        </Row>
+        -->
+    </DuplicateLeaders>
+
+    <LeaderQuotes>
+        <Row LeaderType="LEADER_CUSTOM">
+            <Quote>LOC_LEADER_CUSTOM_QUOTE</Quote>
+        </Row>
+    </LeaderQuotes>
+
+    <LoadingInfo>
+        <Row LeaderType="LEADER_CUSTOM">
+            <BackgroundImage>BACKGROUND_LEADER_CUSTOM_LOADING_SCREEN</BackgroundImage>
+            <ForegroundImage>LEADER_CUSTOM_NEUTRAL</ForegroundImage>
+            <PlayDawnOfManAudio>true</PlayDawnOfManAudio>
+        </Row>
+    </LoadingInfo>
+
+    <DiplomacyInfo>
+        <Row Type="LEADER_CUSTOM">
+            <BackgroundImage>BACKGROUND_LEADER_CUSTOM</BackgroundImage>
+        </Row>
+    </DiplomacyInfo>
+
+</GameData>

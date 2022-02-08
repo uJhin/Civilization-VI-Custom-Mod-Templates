@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_Modifiers -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/28/2021 1:31:52 PM -->
+<GameData>
+
+    <Types>
+        <Row Type="MODIFIER_CUSTOM" Kind="KIND_MODIFIER" />
+    </Types>
+
+    <!-- Difinitions New ModifierTypes -->
+    <DynamicModifiers>
+        <Row ModifierType="MODIFIER_CUSTOM">
+            <CollectionType>COLLECTION_OWNER</CollectionType>
+            <EffectType>EFFECT_ADJUST_PLAYER_GOVERNMENT_SLOT_TYPE</EffectType>
+        </Row>
+    </DynamicModifiers>
+
+    <BuildingModifiers>
+        <Row BuildingType="BUILDING_CUSTOM">
+            <ModifierId>MID_BUILDING_CUSTOM</ModifierId>
+        </Row>
+    </BuildingModifiers>
+
+    <UnitAbilityModifiers>
+        <Row UnitAbilityType="ABILITY_UNIT_CUSTOM">
+            <ModifierId>MID_ABILITY_UNIT_CUSTOM</ModifierId>
+        </Row>
+    </UnitAbilityModifiers>
+
+    <BeliefModifiers>
+        <Row BeliefType="BELIEF_CUSTOM">
+            <ModifierId>MID_BELIEF_CUSTOM</ModifierId>
+        </Row>
+    </BeliefModifiers>
+
+    <PolicyModifiers>
+        <Row PolicyType="POLICY_CUSTOM">
+            <ModifierId>MID_POLICY_CUSTOM</ModifierId>
+        </Row>
+    </PolicyModifiers>
+
+    <CommemorationModifiers>
+        <Row CommemorationType="COMMEMORATION_CUSTOM">
+            <ModifierId>MID_COMMEMORATION_CUSTOM</ModifierId>
+        </Row>
+    </CommemorationModifiers>
+
+    <TraitModifiers>
+        <!-- Civilizations -->
+        <Row TraitType="TRAIT_CIVILIZATION_CUSTOM">
+            <ModifierId>MID_TRAIT_CIVILIZATION_CUSTOM</ModifierId>
+        </Row>
+
+        <!-- Leaders -->
+        <Row TraitType="TRAIT_LEADER_CUSTOM">
+            <ModifierId>MID_TRAIT_LEADER_CUSTOM</ModifierId>
+        </Row>
+
+        <!-- Agendas -->
+        <Row TraitType="TRAIT_AGENDA_CUSTOM">
+            <ModifierId>MID_TRAIT_AGENDA_CUSTOM</ModifierId>
+        </Row>
+        <Row TraitType="TRAIT_AGENDA_RANDOM_CUSTOM">
+            <ModifierId>MID_TRAIT_AGENDA_RANDOM_CUSTOM</ModifierId>
+        </Row>
+
+        <!-- Buildings -->
+        <Row TraitType="TRAIT_BUILDING_CUSTOM">
+            <ModifierId>MID_TRAIT_BUILDING_CUSTOM</ModifierId>
+        </Row>
+
+        <!-- Units -->
+        <Row TraitType="TRAIT_UNIT_CUSTOM">
+            <ModifierId>MID_TRAIT_UNIT_CUSTOM</ModifierId>
+        </Row>
+    </TraitModifiers>
+
+    <Modifiers>
+        <!-- Building Modifiers -->
+        <Row ModifierId="MID_BUILDING_CUSTOM">
+            <ModifierType></ModifierType>
+        </Row>
+
+        <!-- Unit Ability Modifiers -->
+        <Row ModifierId="MID_ABILITY_UNIT_CUSTOM">
+            <ModifierType></ModifierType>
+        </Row>
+
+        <!-- Belief Modifiers -->
+        <Row ModifierId="MID_BELIEF_CUSTOM">
+            <ModifierType></ModifierType>
+        </Row>
+
+        <!-- Policy Modifiers -->
+        <Row ModifierId="MID_POLICY_CUSTOM">
+            <ModifierType></ModifierType>
+        </Row>
+
+        <!-- Commemoration Modifiers -->
+        <Row ModifierId="MID_COMMEMORATION_CUSTOM">
+            <ModifierType></ModifierType>
+        </Row>
+
+        <!-- Traits Modifiers -->
+
+        <!-- Civilization Modifiers -->
+        <Row ModifierId="MID_TRAIT_CIVILIZATION_CUSTOM">
+            <ModifierType>MODIFIER_CUSTOM</ModifierType>
+        </Row>
+
+        <!-- Leader Modifiers -->
+        <Row ModifierId="MID_TRAIT_LEADER_CUSTOM">
+            <ModifierType></ModifierType>
+        </Row>
+
+        <!-- Governor Modifiers -->
+        <Row ModifierId="MID_TRAIT_GOVERNOR_CUSTOM">
+            <ModifierType></ModifierType>
+        </Row>
+
+        <!-- Agenda Modifiers -->
+        <Row ModifierId="MID_TRAIT_AGENDA_CUSTOM">
+            <ModifierType></ModifierType>
+        </Row>
+
+        <!-- Random Agenda Modifiers -->
+        <Row ModifierId="MID_TRAIT_AGENDA_RANDOM_CUSTOM">
+            <ModifierType></ModifierType>
+        </Row>
+
+        <!-- Building Modifiers -->
+        <Row ModifierId="MID_TRAIT_BUILDING_CUSTOM">
+            <ModifierType></ModifierType>
+        </Row>
+
+        <!-- Unit Modifiers -->
+        <Row ModifierId="MID_TRAIT_UNIT_CUSTOM">
+            <ModifierType></ModifierType>
+        </Row>
+    </Modifiers>
+
+    <ModifierArguments>
+        <Row ModifierId="MID_TRAIT_CIVILIZATION_CUSTOM">
+            <Name>GovernmentSlotType</Name>
+            <Value>SLOT_MILITARY</Value>
+        </Row>
+    </ModifierArguments>
+
+    <ModifierStrings>
+        <ModifierId>MID_ABILITY_UNIT_CUSTOM</ModifierId>
+        <Context>Preview</Context>
+        <Text>LOC_MID_ABILITY_UNIT_CUSTOM_NOTIFICATION</Text>
+    </ModifierStrings>
+
+</GameData>

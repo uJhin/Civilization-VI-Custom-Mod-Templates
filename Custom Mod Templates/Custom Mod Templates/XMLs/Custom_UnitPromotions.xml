@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_UnitPromotions -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/28/2021 1:46:45 PM -->
+<GameData>
+
+    <Types>
+        <Row Type="PROMOTION_CLASS_CUSTOM" Kind="KIND_PROMOTION_CLASS" />
+    </Types>
+
+    <UnitPromotionClasses>
+        <Row PromotionClassType="PROMOTION_CLASS_CUSTOM">
+            <Name>LOC_PROMOTION_CLASS_CUSTOM_NAME</Name>
+        </Row>
+    </UnitPromotionClasses>
+
+    <UnitPromotions>
+        <!-- Specialization Default Value is Blank (Not Null) -->
+
+        <Row PromotionClass="PROMOTION_CLASS_CUSTOM" Level="1" Column="1">    
+            <Specialization></Specialization>
+            <UnitPromotionType>PROMOTION_CUSTOM_1</UnitPromotionType>
+            <Name>LOC_PROMOTION_CUSTOM_1_NAME</Name>
+            <Description>LOC_PROMOTION_CUSTOM_1_DESCRIPTION</Description>
+        </Row>
+        <Row PromotionClass="PROMOTION_CLASS_CUSTOM" Level="1" Column="3">
+            <Specialization></Specialization>
+            <UnitPromotionType>PROMOTION_CUSTOM_2</UnitPromotionType>
+            <Name>LOC_PROMOTION_CUSTOM_2_NAME</Name>
+            <Description>LOC_PROMOTION_CUSTOM_2_DESCRIPTION</Description>
+        </Row>
+        <Row PromotionClass="PROMOTION_CLASS_CUSTOM" Level="2" Column="1">
+            <Specialization></Specialization>
+            <UnitPromotionType>PROMOTION_CUSTOM_3</UnitPromotionType>
+            <Name>LOC_PROMOTION_CUSTOM_3_NAME</Name>
+            <Description>LOC_PROMOTION_CUSTOM_3_DESCRIPTION</Description>
+        </Row>
+        <Row PromotionClass="PROMOTION_CLASS_CUSTOM" Level="2" Column="3">
+            <Specialization></Specialization>
+            <UnitPromotionType>PROMOTION_CUSTOM_4</UnitPromotionType>
+            <Name>LOC_PROMOTION_CUSTOM_4_NAME</Name>
+            <Description>LOC_PROMOTION_CUSTOM_4_DESCRIPTION</Description>
+        </Row>
+        <Row PromotionClass="PROMOTION_CLASS_CUSTOM" Level="3" Column="1">
+            <Specialization></Specialization>
+            <UnitPromotionType>PROMOTION_CUSTOM_5</UnitPromotionType>
+            <Name>LOC_PROMOTION_CUSTOM_5_NAME</Name>
+            <Description>LOC_PROMOTION_CUSTOM_5_DESCRIPTION</Description>
+        </Row>
+        <Row PromotionClass="PROMOTION_CLASS_CUSTOM" Level="3" Column="3">
+            <Specialization></Specialization>
+            <UnitPromotionType>PROMOTION_CUSTOM_6</UnitPromotionType>
+            <Name>LOC_PROMOTION_CUSTOM_6_NAME</Name>
+            <Description>LOC_PROMOTION_CUSTOM_6_DESCRIPTION</Description>
+        </Row>
+        <Row PromotionClass="PROMOTION_CLASS_CUSTOM" Level="4" Column="2">
+            <Specialization></Specialization>
+            <UnitPromotionType>PROMOTION_CUSTOM_7</UnitPromotionType>
+            <Name>LOC_PROMOTION_CUSTOM_7_NAME</Name>
+            <Description>LOC_PROMOTION_CUSTOM_7_DESCRIPTION</Description>
+        </Row>
+    </UnitPromotions>
+
+    <UnitPromotionPrereqs>
+        <Row UnitPromotion="PROMOTION_CUSTOM_3" PrereqUnitPromotion="PROMOTION_CUSTOM_1"/>
+        <Row UnitPromotion="PROMOTION_CUSTOM_3" PrereqUnitPromotion="PROMOTION_CUSTOM_4"/>
+        <Row UnitPromotion="PROMOTION_CUSTOM_4" PrereqUnitPromotion="PROMOTION_CUSTOM_2"/>
+        <Row UnitPromotion="PROMOTION_CUSTOM_4" PrereqUnitPromotion="PROMOTION_CUSTOM_3"/>
+        <Row UnitPromotion="PROMOTION_CUSTOM_5" PrereqUnitPromotion="PROMOTION_CUSTOM_3"/>
+        <Row UnitPromotion="PROMOTION_CUSTOM_5" PrereqUnitPromotion="PROMOTION_CUSTOM_4"/>
+        <Row UnitPromotion="PROMOTION_CUSTOM_6" PrereqUnitPromotion="PROMOTION_CUSTOM_4"/>
+        <Row UnitPromotion="PROMOTION_CUSTOM_6" PrereqUnitPromotion="PROMOTION_CUSTOM_5"/>
+        <Row UnitPromotion="PROMOTION_CUSTOM_7" PrereqUnitPromotion="PROMOTION_CUSTOM_5"/>
+        <Row UnitPromotion="PROMOTION_CUSTOM_7" PrereqUnitPromotion="PROMOTION_CUSTOM_6"/>
+        <Row UnitPromotion="PROMOTION_CUSTOM_4" PrereqUnitPromotion="PROMOTION_CUSTOM_5"/>
+    </UnitPromotionPrereqs>
+
+    <UnitPromotionModifiers>
+        <Row UnitPromotionType="PROMOTION_CUSTOM_1">
+            <ModifierId>MID_PROMOTION_CUSTOM_1</ModifierId>
+        </Row>
+        <Row UnitPromotionType="PROMOTION_CUSTOM_2">
+            <ModifierId>MID_PROMOTION_CUSTOM_2</ModifierId>
+        </Row>
+        <Row UnitPromotionType="PROMOTION_CUSTOM_3">
+            <ModifierId>MID_PROMOTION_CUSTOM_3</ModifierId>
+        </Row>
+        <Row UnitPromotionType="PROMOTION_CUSTOM_4">
+            <ModifierId>MID_PROMOTION_CUSTOM_4</ModifierId>
+        </Row>
+        <Row UnitPromotionType="PROMOTION_CUSTOM_5">
+            <ModifierId>MID_PROMOTION_CUSTOM_5</ModifierId>
+        </Row>
+        <Row UnitPromotionType="PROMOTION_CUSTOM_6">
+            <ModifierId>MID_PROMOTION_CUSTOM_6</ModifierId>
+        </Row>
+        <Row UnitPromotionType="PROMOTION_CUSTOM_7">
+            <ModifierId>MID_PROMOTION_CUSTOM_7</ModifierId>
+        </Row>
+    </UnitPromotionModifiers>
+
+</GameData>

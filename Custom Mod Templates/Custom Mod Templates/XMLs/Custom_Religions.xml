@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_Religions -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/26/2021 3:36:16 PM -->
+<GameData>
+
+    <Types>
+        <!-- Religions -->
+        <Row Type="RELIGION_CUSTOM" Kind="KIND_RELIGION" />
+
+        <!-- Beliefs -->
+		<Row Type="BELIEF_CUSTOM"   Kind="KIND_BELIEF"/>
+    </Types>
+
+    <Religions>
+        <Row ReligionType="RELIGION_CUSTOM">
+			<Name>LOC_RELIGION_CUSTOM_NAME</Name>
+			<Iconstring>12</Iconstring>
+			<Color>COLOR_RELIGION_CUSTOM</Color>
+		</Row>
+    </Religions>
+
+    <BeliefClasses>
+        <Row BeliefClassType="BELIEF_CLASS_CUSTOM">
+            <Name>LOC_BELIEF_CLASS_CUSTOM_NAME</Name>
+            <MaxInReligion>1</MaxInReligion>
+            <AdoptionOrder>1</AdoptionOrder>
+        </Row>
+    </BeliefClasses>
+
+    <Beliefs>
+        <Row BeliefType="BELIEF_CUSTOM">
+			<Name>LOC_BELIEF_CUSTOM_NAME</Name>
+			<Description>LOC_BELIEF_CUSTOM_DESCRIPTION</Description>
+			<BeliefClassType>BELIEF_CLASS_CUSTOM</BeliefClassType>
+		</Row>
+    </Beliefs>
+
+</GameData>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_Config -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/26/2021 3:04:30 PM -->
+<GameData>
+
+    <Players>
+        <Row Domain="Players:Expansion2_Players">
+            <CivilizationType>CIVILIZATION_CUSTOM</CivilizationType>
+            <LeaderType>LEADER_CUSTOM</LeaderType>
+            <CivilizationName>LOC_CIVILIZATION_CUSTOM_NAME</CivilizationName>
+            <CivilizationIcon>ICON_CIVILIZATION_CUSTOM</CivilizationIcon>
+            <LeaderName>LOC_LEADER_CUSTOM_NAME</LeaderName>
+            <LeaderIcon>ICON_LEADER_CUSTOM</LeaderIcon>
+            <CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CUSTOM_NAME</CivilizationAbilityName>
+            <CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CUSTOM_DESCRIPTION</CivilizationAbilityDescription>
+            <CivilizationAbilityIcon>ICON_CIVILIZATION_CUSTOM</CivilizationAbilityIcon>
+            <LeaderAbilityName>LOC_TRAIT_LEADER_CUSTOM_NAME</LeaderAbilityName>
+            <LeaderAbilityDescription>LOC_TRAIT_LEADER_CUSTOM_DESCRIPTION</LeaderAbilityDescription>
+            <LeaderAbilityIcon>ICON_LEADER_CUSTOM</LeaderAbilityIcon>
+            <Portrait>LEADER_CUSTOM_NEUTRAL</Portrait>
+        </Row>
+    </Players>
+
+    <PlayerItems>
+        <Row Domain="Players:Expansion2_Players">
+            <CivilizationType>CIVILIZATION_CUSTOM</CivilizationType>
+            <LeaderType>LEADER_CUSTOM</LeaderType>
+            <Type>BUILDING_CUSTOM</Type>
+            <Name>LOC_BUILDING_CUSTOM_NAME</Name>
+            <Description>LOC_BUILDING_CUSTOM_DESCRIPTION</Description>
+            <Icon>ICON_BUILDING_CUSTOM</Icon>
+            <SortIndex>10</SortIndex>
+        </Row>
+    </PlayerItems>
+
+</GameData>

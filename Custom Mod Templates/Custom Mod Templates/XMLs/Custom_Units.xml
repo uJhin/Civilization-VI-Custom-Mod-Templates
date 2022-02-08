@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_Units -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/26/2021 3:04:30 PM -->
+<GameData>
+
+    <Types>
+      <Row Type="UNIT_CUSTOM" Kind="KIND_UNIT" />
+    </Types>
+
+    <Tags>
+        <Row Tag="CLASS_CUSTOM" Vocabulary="ABILITY_CLASS"/>
+    </Tags>
+    <TypeTags>
+        <Row Type="UNIT_CUSTOM" Tag="CLASS_CUSTOM"/>
+    </TypeTags>
+
+    <Units>
+        <Row UnitType="UNIT_CUSTOM">
+            <Name>LOC_UNIT_CUSTOM_NAME</Name>
+            <Description>LOC_UNIT_CUSTOM_DESCRIPTION</Description>
+
+            <Cost>20</Cost>
+            <BaseSightRange>3</BaseSightRange>
+            <BaseMoves>2</BaseMoves>
+            <Domain>DOMAIN_LAND</Domain>
+            <FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>            
+        </Row>
+    </Units>
+
+    <UnitAiInfos>
+        <Row UnitType="UNIT_CUSTOM" AiType="UNITAI_COMBAT"       />
+        <Row UnitType="UNIT_CUSTOM" AiType="UNITAI_EXPLORE"      />
+        <Row UnitType="UNIT_CUSTOM" AiType="UNITTYPE_MELEE"      />
+        <Row UnitType="UNIT_CUSTOM" AiType="UNITTYPE_CAVALRY"    />
+        <Row UnitType="UNIT_CUSTOM" AiType="UNITTYPE_LAND_COMBAT"/>
+    </UnitAiInfos>
+
+    <Unit_BuildingPrereqs>
+        <Row Unit="UNIT_CUSTOM">
+            <PrereqBuilding>BUILDING_CUSTOM</PrereqBuilding>
+        </Row>
+    </Unit_BuildingPrereqs>
+
+    <UnitReplaces>
+        <Row CivUniqueUnitType="UNIT_CUSTOM">
+            <ReplacesUnitType>UNIT_KNIGHT</ReplacesUnitType>
+        </Row>
+    </UnitReplaces>
+
+    <UnitUpgrades>
+        <Row Unit="UNIT_CUSTOM">
+            <UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+        </Row>
+    </UnitUpgrades>
+
+    <UnitAbilities>
+        <Row UnitAbilityType="ABILITY_UNIT_CUSTOM">
+            <Name>LOC_ABILITY_UNIT_CUSTOM_NAME</Name>
+            <Description>LOC_ABILITY_UNIT_CUSTOM_DESCRIPTION</Description>
+            <Inactive>false</Inactive>
+        </Row>
+    </UnitAbilities>
+
+</GameData>

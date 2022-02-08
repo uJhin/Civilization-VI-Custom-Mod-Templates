@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>CustomModTemplates</Name>
+    <Guid>7df7194c-7181-4b85-8f7a-02ba326c3a5b</Guid>
+    <ProjectGuid>5d676f59-e5eb-485e-a94d-63a2d366e86c</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This is Custom Mod Templates.</Teaser>
+    <Description>This is Custom Mod Templates.</Description>
+    <Authors>YuJhin</Authors>
+    <SpecialThanks>YuJhin</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Custom Mod Templates</AssemblyName>
+    <RootNamespace>Custom Mod Templates</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="CustomModTemplates.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs" />
+    <Folder Include="XLPs" />
+    <Folder Include="Scripts" />
+    <Folder Include="SQLs" />
+    <Folder Include="XMLs" />
+    <Folder Include="XMLs\Localization" />
+    <Folder Include="XMLs\Localization\en_US" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\LeaderFallbacks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\Custom_Script.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SQLs\Custom_ModSupport.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SQLs\Custom_Query.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SQLs\Custom_Update.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UILeaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Agendas.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_AI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Governors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Modifiers.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Moments.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Policies.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Religions.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Requirements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Traits.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_UnitPromotions.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Custom_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XMLs\Localization\en_US\Custom_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

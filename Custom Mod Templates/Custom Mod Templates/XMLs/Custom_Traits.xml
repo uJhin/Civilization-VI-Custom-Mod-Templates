@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_Traits -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 11/26/2021 8:36:03 PM -->
+<GameData>
+
+    <Types>
+        <!-- Civilizations -->
+        <Row Type="TRAIT_CIVILZATION_CUSTOM"   Kind="KIND_TRAIT"/>
+
+        <!-- Leaders -->
+        <Row Type="TRAIT_LEADER_CUSTOM"        Kind="KIND_TRAIT"/>
+
+        <!-- Agenda -->
+        <Row Type="TRAIT_AGENDA_CUSTOM"        Kind="KIND_TRAIT"/>
+        <Row Type="TRAIT_AGENDA_RANDOM_CUSTOM" Kind="KIND_TRAIT"/>
+
+        <!-- Buildings -->
+        <Row Type="TRAIT_BUILDING_CUSTOM"      Kind="KIND_TRAIT"/>
+
+        <!-- Units -->
+        <Row Type="TRAIT_UNIT_CUSTOM"          Kind="KIND_UNIT"/>
+    </Types>
+
+    <Traits>
+        <!-- Civilizations -->
+        <Row TraitType="TRAIT_CIVILZATION_CUSTOM">
+            <Name>LOC_TRAIT_CIVILZATION_CUSTOM_NAME</Name>
+            <Description>LOC_TRAIT_CIVILZATION_CUSTOM_DESCRIPTION</Description>
+        </Row>
+
+        <!-- Leaders -->
+        <Row TraitType="TRAIT_LEADER_CUSTOM">
+            <Name>LOC_TRAIT_LEADER_CUSTOM_NAME</Name>
+            <Description>LOC_TRAIT_LEADER_CUSTOM_DESCRIPTION</Description>
+        </Row>
+
+        <!-- Governors -->
+        <Row TraitType="TRAIT_GOVERNOR_CUSTOM">
+            <Name>LOC_TRAIT_GOVERNOR_CUSTOM_NAME</Name>
+            <Description>LOC_TRAIT_GOVERNOR_CUSTOM_DESCRIPTION</Description>
+        </Row>
+
+        <!-- Agendas -->
+        <Row TraitType="TRAIT_AGENDA_CUSTOM">
+            <Name>LOC_TRAIT_AGENDA_CUSTOM_NAME</Name>
+            <Description>LOC_TRAIT_AGENDA_CUSTOM_DESCRIPTION</Description>
+        </Row>
+        <Row TraitType="TRAIT_AGENDA_RANDOM_CUSTOM">
+            <Name>LOC_TRAIT_AGENDA_RANDOM_CUSTOM_NAME</Name>
+            <Description>LOC_TRAIT_AGENDA_RANDOM_CUSTOM_DESCRIPTION</Description>
+        </Row>
+
+        <!-- Buildings -->
+        <Row TraitType="TRAIT_BUILDING_CUSTOM">
+            <Name>LOC_TRAIT_BUILDING_CUSTOM_NAME</Name>
+            <Description>LOC_TRAIT_BUILDING_CUSTOM_DESCRIPTION</Description>
+        </Row>
+
+        <!-- Units -->
+        <Row TraitType="TRAIT_UNIT_CUSTOM">
+            <Name>LOC_TRAIT_UNIT_CUSTOM_NAME</Name>
+            <Description>LOC_TRAIT_UNIT_CUSTOM_DESCRIPTION</Description>
+        </Row>
+    </Traits>
+
+    <CivilizationTraits>
+        <Row CivilizationType="CIVILIZATION_CUSTOM">
+            <TraitType>TRAIT_CIVILIZATION_CUSTOM</TraitType>
+        </Row>
+    </CivilizationTraits>
+
+    <LeaderTraits>
+        <Row LeaderType="LEADER_CUSTOM">
+            <TraitType>TRAIT_LEADER_CUSTOM</TraitType>
+        </Row>
+    </LeaderTraits>
+
+    <AgendaTraits>
+        <Row AgendaType="AGENDA_CUSTOM">
+            <TraitType>TRAIT_AGENDA_CUSTOM</TraitType>
+        </Row>
+        <Row AgendaType="AGENDA_RANDOM_CUSTOM">
+            <TraitType>TRAIT_AGENDA_RANDOM_CUSTOM</TraitType>
+        </Row>
+    </AgendaTraits>
+
+</GameData>

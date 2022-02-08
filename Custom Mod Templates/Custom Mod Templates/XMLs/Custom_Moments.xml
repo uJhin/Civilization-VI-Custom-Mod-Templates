@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom_Moments -->
+<!-- Author: YuJhin -->
+<!-- DateCreated: 12/2/2021 1:54:42 PM -->
+<GameData>
+
+    <Types>
+        <!-- Buildings -->
+        <Row Type="MOMENT_BUILDING_CUSTOM" Kind="KIND_MOMENT" />
+
+        <!-- Units -->
+        <Row Type="MOMENT_UNIT_CUSTOM" Kind="KIND_MOMENT" />
+
+        <!-- Governors -->
+        <Row Type="MOMENT_GOVERNOR_CUSTOM" Kind="KIND_MOMENT" />
+
+        <!-- Moment Outcomes -->
+        <Row Type="COMMEMORATION_CUSTOM" Kind="KIND_MOMENT_OUTCOME"/>
+    </Types>
+
+    <Moments>
+        <!-- Buildings -->
+        <Row MomentType="MOMENT_BUILDING_CUSTOM" EraScore="2">
+            <Name>LOC_MOMENT_BUILDING_CUSTOM_NAME</Name>
+            <Description>LOC_MOMENT_BUILDING_CUSTOM_DESCRIPTION</Description>
+            <InstanceDescription>LOC_MOMENT_BUILDING_CUSTOM_INSTANCE_DESCRIPTION</InstanceDescription>
+            <InterestLevel>3</InterestLevel>
+            <BackgroundTexture>MOMENT_BUILDING_CUSTOM</BackgroundTexture>
+        </Row>
+
+        <!-- Units -->
+        <Row MomentType="MOMENT_UNIT_CUSTOM" EraScore="2">
+            <Name>LOC_MOMENT_UNIT_CUSTOM_NAME</Name>
+            <Description>LOC_MOMENT_UNIT_CUSTOM_DESCRIPTION</Description>
+            <InstanceDescription>LOC_MOMENT_UNIT_CUSTOM_INSTANCE_DESCRIPTION</InstanceDescription>
+            <InterestLevel>3</InterestLevel>
+            <BackgroundTexture>MOMENT_UNIT_CUSTOM</BackgroundTexture>
+        </Row>
+
+        <!-- Governors -->
+        <Row MomentType="MOMENT_GOVERNOR_CUSTOM" EraScore="2">
+            <Name>LOC_MOMENT_GOVERNOR_CUSTOM_NAME</Name>
+            <Description>LOC_MOMENT_GOVERNOR_CUSTOM_DESCRIPTION</Description>
+            <InstanceDescription>LOC_MOMENT_GOVERNOR_CUSTOM_INSTANCE_DESCRIPTION</InstanceDescription>
+            <InterestLevel>3</InterestLevel>
+            <BackgroundTexture>MOMENT_GOVERNOR_CUSTOM</BackgroundTexture>
+        </Row>
+    </Moments>
+
+    <MomentIllustrations>
+        <!-- Buildings -->
+        <Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING">
+            <MomentDataType>MOMENT_DATA_BUILDING</MomentDataType>
+            <GameDataType>BUILDING_CUSTOM</GameDataType>
+            <Texture>MOMENT_CUSTOM_BUILDING</Texture>
+        </Row>
+
+        <!-- Units -->
+        <Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT">
+            <MomentDataType>MOMENT_DATA_UNIT</MomentDataType>
+            <GameDataType>UNIT_CUSTOM</GameDataType>
+            <Texture>MOMENT_UNIT_CUSTOM</Texture>
+        </Row>
+
+        <!-- Governors -->
+        <Row MomentIllustrationType="MOMENT_ILLUSTRATION_GOVERNOR">
+            <MomentDataType>MOMENT_DATA_GOVERNOR</MomentDataType>
+            <GameDataType>GOVERNOR_CUSTOM</GameDataType>
+            <Texture>MOMENT_GOVERNOR_CUSTOM</Texture>
+        </Row>
+    </MomentIllustrations>
+
+    <CommemorationTypes>
+        <Row CommemorationType="COMMEMORATION_CUSTOM">
+            <CategoryDescription>LOC_COMMEMORATION_CUSTOM</CategoryDescription>
+            <GoldenAgeBonusDescription>LOC_COMMEMORATION_CUSTOM_BONUS_GOLDEN_AGE</GoldenAgeBonusDescription>
+            <NormalAgeBonusDescription>LOC_COMMEMORATION_CUSTOM_BONUS_NORMAL_AGE</NormalAgeBonusDescription>
+            <DarkAgeBonusDescription>LOC_COMMEMORATION_CUSTOM_BONUS_DARK_AGE</DarkAgeBonusDescription>
+            <MinimumGameEra>ERA_INFORMATION</MinimumGameEra>
+        </Row>
+    </CommemorationTypes>
+
+</GameData>
